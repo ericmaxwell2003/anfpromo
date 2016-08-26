@@ -16,6 +16,15 @@
 		69ECA3E81D67917C0024CE56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69ECA3E61D67917C0024CE56 /* LaunchScreen.storyboard */; };
 		69ECA3F31D67917C0024CE56 /* AnfPromoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ECA3F21D67917C0024CE56 /* AnfPromoTests.swift */; };
 		69ECA3FE1D67917C0024CE56 /* AnfPromoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ECA3FD1D67917C0024CE56 /* AnfPromoUITests.swift */; };
+		69ECA40E1D6797DF0024CE56 /* PromotionsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ECA40D1D6797DF0024CE56 /* PromotionsApi.swift */; };
+		69ECA4111D6799700024CE56 /* PromotionDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ECA4101D6799700024CE56 /* PromotionDto.swift */; };
+		69ECA4131D6799830024CE56 /* ButtonDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ECA4121D6799830024CE56 /* ButtonDto.swift */; };
+		69ECA4151D67A3600024CE56 /* PromotionsSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ECA4141D67A3600024CE56 /* PromotionsSyncService.swift */; };
+		69ECA41C1D67A5B30024CE56 /* Promotion+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ECA4181D67A5B30024CE56 /* Promotion+CoreDataProperties.swift */; };
+		69ECA41D1D67A5B30024CE56 /* Promotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ECA4191D67A5B30024CE56 /* Promotion.swift */; };
+		69ECA41E1D67A5B30024CE56 /* Button+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ECA41A1D67A5B30024CE56 /* Button+CoreDataProperties.swift */; };
+		69ECA41F1D67A5B30024CE56 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ECA41B1D67A5B30024CE56 /* Button.swift */; };
+		69ECA4211D67D88B0024CE56 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69ECA4201D67D88B0024CE56 /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,15 @@
 		69ECA3F91D67917C0024CE56 /* AnfPromoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnfPromoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69ECA3FD1D67917C0024CE56 /* AnfPromoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnfPromoUITests.swift; sourceTree = "<group>"; };
 		69ECA3FF1D67917C0024CE56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69ECA40D1D6797DF0024CE56 /* PromotionsApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromotionsApi.swift; sourceTree = "<group>"; };
+		69ECA4101D6799700024CE56 /* PromotionDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromotionDto.swift; sourceTree = "<group>"; };
+		69ECA4121D6799830024CE56 /* ButtonDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonDto.swift; sourceTree = "<group>"; };
+		69ECA4141D67A3600024CE56 /* PromotionsSyncService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromotionsSyncService.swift; sourceTree = "<group>"; };
+		69ECA4181D67A5B30024CE56 /* Promotion+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promotion+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		69ECA4191D67A5B30024CE56 /* Promotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Promotion.swift; sourceTree = "<group>"; };
+		69ECA41A1D67A5B30024CE56 /* Button+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Button+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		69ECA41B1D67A5B30024CE56 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		69ECA4201D67D88B0024CE56 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69ECA4211D67D88B0024CE56 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +104,7 @@
 				69ECA3F11D67917C0024CE56 /* AnfPromoTests */,
 				69ECA3FC1D67917C0024CE56 /* AnfPromoUITests */,
 				69ECA3D61D67917C0024CE56 /* Products */,
+				69ECA4221D67DD060024CE56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +121,10 @@
 		69ECA3D71D67917C0024CE56 /* AnfPromo */ = {
 			isa = PBXGroup;
 			children = (
-				69ECA3D81D67917C0024CE56 /* AppDelegate.swift */,
-				69ECA3DD1D67917C0024CE56 /* MasterViewController.swift */,
-				69ECA3DF1D67917C0024CE56 /* DetailViewController.swift */,
-				69ECA3E11D67917C0024CE56 /* Main.storyboard */,
-				69ECA3E41D67917C0024CE56 /* Assets.xcassets */,
-				69ECA3E61D67917C0024CE56 /* LaunchScreen.storyboard */,
-				69ECA3E91D67917C0024CE56 /* Info.plist */,
-				69ECA3DA1D67917C0024CE56 /* AnfPromo.xcdatamodeld */,
+				69ECA4171D67A5720024CE56 /* Domain */,
+				69ECA40B1D6791F10024CE56 /* SupportingFiles */,
+				69ECA40C1D67978B0024CE56 /* UserInterface */,
+				69ECA40F1D67989C0024CE56 /* Remote */,
 			);
 			path = AnfPromo;
 			sourceTree = "<group>";
@@ -129,6 +145,66 @@
 				69ECA3FF1D67917C0024CE56 /* Info.plist */,
 			);
 			path = AnfPromoUITests;
+			sourceTree = "<group>";
+		};
+		69ECA40B1D6791F10024CE56 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				69ECA3D81D67917C0024CE56 /* AppDelegate.swift */,
+				69ECA3E41D67917C0024CE56 /* Assets.xcassets */,
+				69ECA3E61D67917C0024CE56 /* LaunchScreen.storyboard */,
+				69ECA3E91D67917C0024CE56 /* Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		69ECA40C1D67978B0024CE56 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				69ECA3DD1D67917C0024CE56 /* MasterViewController.swift */,
+				69ECA3DF1D67917C0024CE56 /* DetailViewController.swift */,
+				69ECA3E11D67917C0024CE56 /* Main.storyboard */,
+			);
+			name = UserInterface;
+			sourceTree = "<group>";
+		};
+		69ECA40F1D67989C0024CE56 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				69ECA40D1D6797DF0024CE56 /* PromotionsApi.swift */,
+				69ECA4141D67A3600024CE56 /* PromotionsSyncService.swift */,
+				69ECA4161D67A3860024CE56 /* Dto */,
+			);
+			name = Remote;
+			sourceTree = "<group>";
+		};
+		69ECA4161D67A3860024CE56 /* Dto */ = {
+			isa = PBXGroup;
+			children = (
+				69ECA4101D6799700024CE56 /* PromotionDto.swift */,
+				69ECA4121D6799830024CE56 /* ButtonDto.swift */,
+			);
+			name = Dto;
+			sourceTree = "<group>";
+		};
+		69ECA4171D67A5720024CE56 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				69ECA4191D67A5B30024CE56 /* Promotion.swift */,
+				69ECA41B1D67A5B30024CE56 /* Button.swift */,
+				69ECA4181D67A5B30024CE56 /* Promotion+CoreDataProperties.swift */,
+				69ECA41A1D67A5B30024CE56 /* Button+CoreDataProperties.swift */,
+				69ECA3DA1D67917C0024CE56 /* AnfPromo.xcdatamodeld */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		69ECA4221D67DD060024CE56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69ECA4201D67D88B0024CE56 /* Alamofire.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +339,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				69ECA3D91D67917C0024CE56 /* AppDelegate.swift in Sources */,
+				69ECA4111D6799700024CE56 /* PromotionDto.swift in Sources */,
+				69ECA4151D67A3600024CE56 /* PromotionsSyncService.swift in Sources */,
+				69ECA41C1D67A5B30024CE56 /* Promotion+CoreDataProperties.swift in Sources */,
+				69ECA40E1D6797DF0024CE56 /* PromotionsApi.swift in Sources */,
 				69ECA3DC1D67917C0024CE56 /* AnfPromo.xcdatamodeld in Sources */,
 				69ECA3DE1D67917C0024CE56 /* MasterViewController.swift in Sources */,
+				69ECA41F1D67A5B30024CE56 /* Button.swift in Sources */,
+				69ECA41E1D67A5B30024CE56 /* Button+CoreDataProperties.swift in Sources */,
+				69ECA41D1D67A5B30024CE56 /* Promotion.swift in Sources */,
+				69ECA4131D6799830024CE56 /* ButtonDto.swift in Sources */,
 				69ECA3E01D67917C0024CE56 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +493,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AnfPromo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = software.credible.AnfPromo;
@@ -420,6 +508,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AnfPromo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = software.credible.AnfPromo;
